@@ -31,6 +31,18 @@ You will have the following tasks:
 - Create a new rule set implementing a simple variation on Conway’s rules.
 
 
+Running the tests
+---
+
+This project includes **unit tests**. They are code that tests the correctness of other code. In particular, these verify that the Game of Life code is working correctly.
+
+Look for `BoardTest` and `ConwayTest`, and take a minute to understand their stucture. You will see many individual test cases, each of which has a structure like: “When I do _X_, the result should be _Y_.”
+
+Run the tests by right-clicking on the `124-game-of-life-lab` module in the left panel, and choosing “Run All Tests.” You should see 4 tests failing. That is because the rules are not implemented yet!
+
+This is a common and effective approach to development: write some tests that describe what you intend, then write the code that will make those tests pass.
+
+
 Implementing Conway’s Rules
 ---
 
@@ -38,7 +50,7 @@ Your first task is to implement Conway’s rules for the Game of Life. These are
 
 `Conway.java` contains a method, `applyRules()`, which will be used by the game board to compute the next state in each generation. `applyRules()` takes two parameters: a boolean value representing the cell’s current value, and an integer representing the number of living neighbors the cell has. It must return the value for that cell in the next generation. true represents a living cell, and false represents a dead cell.
 
-You can test the correctness of your rules by running the "ConwayTest.java" JUnit tests.  To do so, right click (or control-click) on "ConwayTest" and select Run 'ConwayTest'.  If a test fails, you can look at ConwayTest.java to see the conditions under which it is failing.
+When you think you’ve got it, try running the tests again. If they all pass, you can see your rules come to life!
 
 
 Experimenting
