@@ -1,12 +1,3 @@
-Comp 124: Game of Life Lab
-====
-
-This lab was originally developed by Michael Ekstrand (michaelekstrand@boisestate.edu) and is used with his permission.
-Shilad Sen brought it to Macalester and adapted it for Comp 124. Paul Cantrell rewrote the instructions for GitHub and added a bit of flair.
-
-Thanks to everybody who contributed!
-
-
 The Game of Life
 ---
 
